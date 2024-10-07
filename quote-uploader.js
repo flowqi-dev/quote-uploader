@@ -18,12 +18,12 @@ async function handleRequest(request) {
 
 // Function to fetch quotes.json dynamically from GitHub
 async function fetchQuotesFromGitHub() {
-    const url = 'https://raw.githubusercontent.com/flowqi-dev/quote-uploader/main/quotes.json'; // Replace with your actual GitHub path
+    const url = 'https://api.github.com/repos/flowqi-dev/quote-uploader/contents/quotes.json';
     const response = await fetch(url, {
         headers: {
-            'Accept': 'application/json',
+            'Accept': 'application/vnd.github.v3.raw',
             // Uncomment the line below if your repo is private
-            // 'Authorization': `Bearer ${GITHUB_TOKEN}`
+            'Authorization': `Bearer ${GITHUB_TOKEN}`
         }
     });
 
