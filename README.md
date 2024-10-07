@@ -1,2 +1,2 @@
 # quote-uploader
-Quote Uploader.
+Quote Uploader
