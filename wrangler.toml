@@ -1,0 +1,3 @@
+name = "quote-uploader"
+type = "javascript"  # Use "module" if you’re using ES module syntax
+main = "quote-uploader.js"  # Path to your main Worker script
