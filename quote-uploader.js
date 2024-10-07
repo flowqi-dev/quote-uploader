@@ -1,38 +1,14 @@
+// Import quotes.json directly from the root of the GitHub repository
+import quotesData from './quotes.json';
+
 addEventListener("fetch", event => {
     event.respondWith(handleRequest(event.request));
 });
 
-// Main function to handle the request
+// Function to handle the request
 async function handleRequest(request) {
-    // Fetch the quotes data from GitHub
-    const quotesData = await fetchQuotesFromGitHub();
-
-    if (!quotesData) {
-        return new Response("Failed to fetch quotes data from GitHub.", { status: 500 });
-    }
-
-    // Update quotes and images in KV
-    await updateQuotesAndImagesInKV(quotesData);
+    await updateQuotesAndImagesInKV(quotesData); // Update quotes and images in KV
     return new Response("Quotes and images updated in KV successfully.", { status: 200 });
-}
-
-// Function to fetch quotes.json dynamically from GitHub
-async function fetchQuotesFromGitHub() {
-    const url = 'https://api.github.com/repos/flowqi-dev/quote-uploader/contents/quotes.json';
-    const response = await fetch(url, {
-        headers: {
-            'Accept': 'application/vnd.github.v3.raw',
-            // Uncomment the line below if your repo is private
-            'Authorization': `Bearer ${GITHUB_TOKEN}`
-        }
-    });
-
-    if (response.ok) {
-        return await response.json();
-    } else {
-        console.error(`Error fetching quotes.json: ${response.status}`);
-        return null;
-    }
 }
 
 // Function to update authors and their quotes in KV, and handle image checking/uploading
@@ -44,12 +20,13 @@ async function updateQuotesAndImagesInKV(quotesData) {
         let existingAuthor = await QUOTES_KV.get(authorKey);
 
         if (existingAuthor) {
+            // If the author exists, parse the existing data
             existingAuthor = JSON.parse(existingAuthor);
 
             // Merge quotes (without duplicating existing quotes)
             for (let quote of author.quotes) {
                 if (!existingAuthor.quotes.includes(quote)) {
-                    existingAuthor.quotes.push(quote);
+                    existingAuthor.quotes.push(quote); // Add new quotes
                 }
             }
 
@@ -63,6 +40,7 @@ async function updateQuotesAndImagesInKV(quotesData) {
 
             // Store updated quotes and image URL in KV
             await QUOTES_KV.put(authorKey, JSON.stringify(existingAuthor));
+
         } else {
             // If author doesn't exist, fetch and upload an image
             const imageUrl = await fetchAndUploadImage(author.author);
@@ -157,3 +135,7 @@ async function uploadImageToCloudflare(imageUrl, authorName) {
         throw new Error(uploadResult.errors);
     }
 }
+
+  
+  
+  
