@@ -1,0 +1,228 @@
+{
+    "authors": [
+      {
+        "author": "Peter Drucker",
+        "image_url": "https://path/to/peter_drucker_image.jpg",
+        "quotes": [
+          "The best way to predict the future is to create it."
+        ]
+      },
+      {
+        "author": "Leonardo da Vinci",
+        "image_url": "https://path/to/leonardo_da_vinci_image.jpg",
+        "quotes": [
+          "Simplicity is the ultimate sophistication."
+        ]
+      },
+      {
+        "author": "Winston Churchill",
+        "image_url": "https://path/to/winston_churchill_image.jpg",
+        "quotes": [
+          "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+          "Success is walking from failure to failure with no loss of enthusiasm.",
+          "You have enemies? Good. That means you've stood up for something, sometime in your life."
+        ]
+      },
+      {
+        "author": "Albert Einstein",
+        "image_url": "https://path/to/albert_einstein_image.jpg",
+        "quotes": [
+          "Creativity is intelligence having fun.",
+          "Imagination is more important than knowledge.",
+          "In the middle of difficulty lies opportunity."
+        ]
+      },
+      {
+        "author": "Muhammad Ali",
+        "image_url": "https://path/to/muhammad_ali_image.jpg",
+        "quotes": [
+          "He who is not courageous enough to take risks will accomplish nothing in life.",
+          "Don't count the days, make the days count."
+        ]
+      },
+      {
+        "author": "Nelson Mandela",
+        "image_url": "https://path/to/nelson_mandela_image.jpg",
+        "quotes": [
+          "It always seems impossible until it's done."
+        ]
+      },
+      {
+        "author": "Thomas Edison",
+        "image_url": "https://path/to/thomas_edison_image.jpg",
+        "quotes": [
+          "I have not failed. I've just found 10,000 ways that won't work."
+        ]
+      },
+      {
+        "author": "Andrew Carnegie",
+        "image_url": "https://path/to/andrew_carnegie_image.jpg",
+        "quotes": [
+          "The secret of success lies not in doing your own work, but in recognizing the best person to do it."
+        ]
+      },
+      {
+        "author": "Steve Jobs",
+        "image_url": "https://path/to/steve_jobs_image.jpg",
+        "quotes": [
+          "The only way to do great work is to love what you do.",
+          "Innovation distinguishes between a leader and a follower."
+        ]
+      },
+      {
+        "author": "Martin Luther King Jr.",
+        "image_url": "https://path/to/martin_luther_king_image.jpg",
+        "quotes": [
+          "The time is always right to do what is right.",
+          "Our lives begin to end the day we become silent about things that matter.",
+          "We must accept finite disappointment, but never lose infinite hope."
+        ]
+      },
+      {
+        "author": "Confucius",
+        "image_url": "https://path/to/confucius_image.jpg",
+        "quotes": [
+          "Our greatest glory is not in never falling, but in rising every time we fall.",
+          "It does not matter how slowly you go as long as you do not stop.",
+          "The man who moves a mountain begins by carrying away small stones."
+        ]
+      },
+      {
+        "author": "Walt Disney",
+        "image_url": "https://path/to/walt_disney_image.jpg",
+        "quotes": [
+          "The way to get started is to quit talking and begin doing.",
+          "All our dreams can come true, if we have the courage to pursue them.",
+          "If you can dream it, you can do it."
+        ]
+      },
+      {
+        "author": "Ralph Waldo Emerson",
+        "image_url": "https://path/to/ralph_waldo_emerson_image.jpg",
+        "quotes": [
+          "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+          "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+          "The only person you are destined to become is the person you decide to be."
+        ]
+      },
+      {
+        "author": "Theodore Roosevelt",
+        "image_url": "https://path/to/theodore_roosevelt_image.jpg",
+        "quotes": [
+          "Believe you can and you're halfway there.",
+          "Do what you can, with what you have, where you are.",
+          "Keep your eyes on the stars and your feet on the ground."
+        ]
+      },
+      {
+        "author": "Eleanor Roosevelt",
+        "image_url": "https://path/to/eleanor_roosevelt_image.jpg",
+        "quotes": [
+          "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+          "The future belongs to those who believe in the beauty of their dreams.",
+          "With the new day comes new strength and new thoughts."
+        ]
+      },
+      {
+        "author": "John F. Kennedy",
+        "image_url": "https://path/to/john_f_kennedy_image.jpg",
+        "quotes": [
+          "Leadership and learning are indispensable to each other."
+        ]
+      },
+      {
+        "author": "Henry Ford",
+        "image_url": "https://path/to/henry_ford_image.jpg",
+        "quotes": [
+          "Failure is simply the opportunity to begin again, this time more intelligently."
+        ]
+      },
+      {
+        "author": "Barack Obama",
+        "image_url": "https://path/to/barack_obama_image.jpg",
+        "quotes": [
+          "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."
+        ]
+      },
+      {
+        "author": "Mark Twain",
+        "image_url": "https://path/to/mark_twain_image.jpg",
+        "quotes": [
+          "The secret of getting ahead is getting started."
+        ]
+      },
+      {
+        "author": "Vidal Sassoon",
+        "image_url": "https://path/to/vidal_sassoon_image.jpg",
+        "quotes": [
+          "The only place where success comes before work is in the dictionary."
+        ]
+      },
+      {
+        "author": "Babe Ruth",
+        "image_url": "https://path/to/babe_ruth_image.jpg",
+        "quotes": [
+          "Every strike brings me closer to the next home run."
+        ]
+      },
+      {
+        "author": "J.K. Rowling",
+        "image_url": "https://path/to/jk_rowling_image.jpg",
+        "quotes": [
+          "It is our choices that show what we truly are, far more than our abilities."
+        ]
+      },
+      {
+        "author": "Aristotle",
+        "image_url": "https://path/to/aristotle_image.jpg",
+        "quotes": [
+          "There is only one way to avoid criticism: do nothing, say nothing, and be nothing."
+        ]
+      },
+      {
+        "author": "Sam Levenson",
+        "image_url": "https://path/to/sam_levenson_image.jpg",
+        "quotes": [
+          "Don't watch the clock; do what it does. Keep going."
+        ]
+      },
+      {
+        "author": "Franklin D. Roosevelt",
+        "image_url": "https://path/to/franklin_roosevelt_image.jpg",
+        "quotes": [
+          "The only limit to our realization of tomorrow is our doubts of today."
+        ]
+      },
+      {
+        "author": "Roy T. Bennett",
+        "image_url": "https://path/to/roy_t_bennett_image.jpg",
+        "quotes": [
+          "Success is not how high you have climbed, but how you make a positive difference to the world."
+        ]
+      },
+      {
+        "author": "Chinese Proverb",
+        "image_url": "https://path/to/chinese_proverb_image.jpg",
+        "quotes": [
+          "The best time to plant a tree was 20 years ago. The second best time is now."
+        ]
+      },
+      {
+        "author": "Oprah Winfrey",
+        "image_url": "https://path/to/oprah_winfrey_image.jpg",
+        "quotes": [
+          "Turn your wounds into wisdom.",
+          "The more you praise and celebrate your life, the more there is in life to celebrate."
+        ]
+      },
+      {
+        "author": "C.S. Lewis",
+        "image_url": "https://path/to/cs_lewis_image.jpg",
+        "quotes": [
+          "Hardships often prepare ordinary people for an extraordinary destiny.",
+          "You are never too old to set another goal or to dream a new dream."
+        ]
+      }
+    ]
+  }
+  
